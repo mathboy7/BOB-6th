@@ -2,9 +2,6 @@
 
 int main(void) {
 	int sum = 0;
-
-	for(int i=1; i<=100; ++i)
-		sum += i;
-
-	std::cout<<"sum: "<<sum<<std::endl;
+	
+	std::cout<<"sum: "<<(100*101)/2<<std::endl;
 }
